@@ -10,3 +10,32 @@ show collections
 
 exit 
 //it will exit the db use
+
+
+db.books.insertOne({title:"dlsjkfl",pages:"600"})
+//inserting single document
+
+db.books.insertMany([{title:"dlsjkfl",pages:"600"},{title:"dlsjkfl",pages:"800"}])
+
+db.find()
+//all documents will be return the first 20
+then type iterate it will display 20 more
+
+db.find({author:"queen"})
+
+db.find({author:"queen",page:"700"})
+
+db.find({author:"queen",page:"700"},{title:1,author:1})
+//it will print only these 2 columns
+
+
+db.find({author:"queen"}).count()
+
+//it will return count
+
+db.find({author:"queen"}).limit(3)
+//only return 3 document
+
+db.find({authour:"queen"}).sort({title:1})
+
+//ascending order for descending change 1 to -1
