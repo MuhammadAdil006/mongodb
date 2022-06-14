@@ -1,0 +1,3 @@
+download mongo shell
+mongo interactive interface
+write mongosh for confirmation on cmd
