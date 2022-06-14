@@ -1,0 +1,3 @@
+collection is the combination of documents(record in json)
+every doc is identified by id
+document can be nested document 
