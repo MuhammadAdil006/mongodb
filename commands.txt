@@ -1,0 +1,12 @@
+show dbs
+//it will display all the databases
+
+use bookstore 
+//it will select db to use
+
+show collections
+
+//it will show collections
+
+exit 
+//it will exit the db use
